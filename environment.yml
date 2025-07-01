@@ -4,35 +4,35 @@ channels:
   - bioconda
   - pytorch
 dependencies:
-  - python=3.9
-  - libgcc=7.2
-  - setuptools=59.5.0
+  - python
+  - libgcc
+  - setuptools
   - pip
-  - openmm=7.7
+  - openmm
   - pdbfixer
   - pytorch-lightning
   - biopython
   - numpy
   - pandas
-  - PyYAML==5.4.1
+  - PyYAML
   - requests
-  - scipy==1.7
-  - tqdm==4.62.2
-  - typing-extensions==4.0
+  - scipy
+  - tqdm
+  - typing-extensions
   - wandb
-  - modelcif==0.7
+  - modelcif
   - awscli
   - ml-collections
   - aria2
-  - mkl=2024.0
+  - mkl
   - git
-  - bioconda::hmmer==3.3.2
-  - bioconda::hhsuite==3.3.0
-  - bioconda::kalign2==2.04
+  - bioconda::hmmer
+  - bioconda::hhsuite
+  - bioconda::kalign2
   - bioconda::mmseqs2
-  - pytorch::pytorch=1.12.*
+  #- pytorch::pytorch
   - pip:
-      - deepspeed==0.12.4
-      - dm-tree==0.1.6
+      - deepspeed
+      - dm-tree
       - git+https://github.com/NVIDIA/dllogger.git
       - git+https://github.com/Dao-AILab/flash-attention.git@5b838a8
